@@ -53,9 +53,7 @@ def draw_spiral(size_of_gap):
         timmy.circle(130)
         timmy.setheading(timmy.heading()+size_of_gap)
 
-draw_spiral(5)
-
-
+# draw_spiral(5)
 
 
 screen = t.Screen()
