@@ -45,7 +45,7 @@ def game_loop():
 
     snake.move()
 
-    # Collision with food
+    # Collision with foodR
     if snake.head.distance(food) < 15:
         food.refresh()
         snake.extend()
